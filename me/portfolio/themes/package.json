@@ -1,0 +1,25 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.css --no-source-map",
+    "style-min": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.min.css --no-source-map --style compressed",
+    "watch": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.css --no-source-map --watch",
+    "watch-min": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.css --no-source-map --style compressed --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.69.5",
+    "stylelint": "^15.11.0",
+    "stylelint-config-sass-guidelines": "^10.0.0"
+  }
+}

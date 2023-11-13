@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    background-color: $beige;
+    color: #333;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 20px 20px;
+    border-left: 1px solid $darkbeige;
+    border-right: 1px solid $darkbeige;
+    background-color: $lightbeige;
+}
+
+.me-img {
+    border-radius: 10px;
+    width: 250px;
+}
