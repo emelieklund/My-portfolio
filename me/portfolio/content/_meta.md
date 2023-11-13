@@ -1,7 +1,7 @@
 ---
 Logo: image/sun_logo.png
 Me: image/me.png
-Tagline: My portfolio
+Tagline: Min portfolio
 Social:
     - title: Länk till mitt Github-repo
       url: https://github.com/emelieklund/my-portfolio
