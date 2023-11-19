@@ -24,6 +24,12 @@
     display: none;
 }
 
+@media (max-width: 500px) {
+    .css, .html, .javascript, .php, .python, .git, .sqlite {
+        grid-column: 1/4;
+    }
+}
+
 @media (max-width: 767px) {
     .main {
         width: 85%;
@@ -31,6 +37,18 @@
 
     .header {
         flex-direction: column;
+    }
+
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
     }
 
     .nav ul {
@@ -58,5 +76,13 @@
         line-height: 2em;
         text-align: center;
         cursor: pointer;
+    }
+
+    .tech-menu {
+        display: none;
+    }
+
+    .tech-content {
+        width: 100%;
     }
 }
