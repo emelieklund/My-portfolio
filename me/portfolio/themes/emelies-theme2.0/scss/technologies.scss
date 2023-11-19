@@ -1,0 +1,81 @@
+/* Technologies */
+
+.grid {
+    display: grid;
+}
+
+.landingpage {
+    gap: 1rem 2rem;
+    // grid-template-columns: [line1] 1/3 [line2] 1/3 [line3] 1/3 [line3];
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid $darkbeige;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: $beige;
+}
+
+.box:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+
+.css {
+    grid-column: 1/2; 
+}
+
+.html {
+    grid-column: 2/4;
+}
+
+.javascript {
+    grid-column: 1/3;
+}
+
+.php {
+    grid-column: 3/4;
+}
+
+.python {
+    grid-column: 1/4;
+}
+
+.git {
+    grid-column: 1/2;
+}
+
+.sqlite {
+    grid-column: 2/4;
+}
+
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-menu {
+    width: 20%;
+    font-family: $text-font;
+    border-right: 1px solid #dfdfdf;
+
+    p {
+        line-height: 1;
+    }
+
+    h2 {
+        font-family: $head-font;
+        margin-bottom: 0.8rem;
+    }
+}
+
+.tech-content {
+    width: 70%;
+    margin-bottom: 1.5;
+}
