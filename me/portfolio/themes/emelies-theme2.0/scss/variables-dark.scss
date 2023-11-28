@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Noto+Serif+Balinese&display=swap');
+
+// Fonts
+$text-font: 'Montserrat', sans-serif;
+$head-font: 'Noto Serif Balinese', serif;
+
+$font-color: #fff;
+
+// Color variables
+$darkgray: #222;
+$gray: #3e3e3e;
+
+// Backgrounds
+$header-image: linear-gradient(to right, #434343 0%, black 100%);
+$footer-background: $darkgray;
+$body-background: $darkgray;
+$main-background: $gray;
+
+$tech-img: linear-gradient(to bottom, #222 0%, #121212 100%);
+
+// Colors
+$border-color: $gray;
+$code-background: #616161;
+$table-light: #616161;
+$table-dark: $gray;
+$link-color: rgb(108, 147, 108);
+
+$brightness: brightness(85%);
