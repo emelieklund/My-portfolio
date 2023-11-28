@@ -2,12 +2,13 @@
 
 .nav {
     a {
+        color: $font-color;
         font-size: 1.5rem;
         font-family: $text-font;
         text-decoration: none;
     }
 
     a:hover {
-        border-bottom: 4px solid #ff99e0;
+        border-bottom: 4px solid #99627A;
     }    
 }

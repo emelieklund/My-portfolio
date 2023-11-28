@@ -1,15 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Noto+Serif+Balinese&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
 
-$font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-$background-color: #3d5a80;
-$background-alternative-color: #e0fbfc;
 
+// Fonts
 $text-font: 'Montserrat', sans-serif;
 $head-font: 'Noto Serif Balinese', serif;
-$beige: rgb(231, 221, 214);
-$lightbeige: rgb(249, 246, 243);
-$darkbeige: rgb(207, 193, 185);
+
+$font-color: #333;
+
+// Backgrounds
+$header-image: linear-gradient(to right, #D9558E 0%, #55D95A 100%);
+$footer-background: #594F54;
+$body-background: #e8e8e8;
+$main-background: #f8f8f8;
+
+$tech-img: linear-gradient(to bottom, #5F8461 0%, #a9c9ab 100%);
+
+// Colors
+$border-color: #e2e2e2;
+$code-background: #f5f5f5;
+$table-light: #f5f5f5;
+$table-dark: #d2d2d2;
+$link-color: rgb(34, 102, 165);
+
+$brightness: brightness(100%);

@@ -7,11 +7,16 @@
     "example": "example"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.css --no-source-map",
-    "style-min": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.min.css --no-source-map --style compressed",
-    "watch": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.css --no-source-map --watch",
-    "watch-min": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.css --no-source-map --style compressed --watch"
+    "watch": "sass emelies-theme2.0/scss/style.scss:emelies-theme2.0/css/style.css emelies-theme2.0/scss/style-dark.scss:emelies-theme2.0/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass emelies-theme2.0/scss/style.scss:emelies-theme2.0/css/style.min.css emelies-theme2.0/scss/style-dark.scss:emelies-theme2.0/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass emelies-theme2.0/scss/style-dark.scss emelies-theme2.0/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass emelies-theme2.0/scss/style-dark.scss emelies-theme2.0/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.css --no-source-map",
+    "style-light-min": "sass emelies-theme2.0/scss/style.scss emelies-theme2.0/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

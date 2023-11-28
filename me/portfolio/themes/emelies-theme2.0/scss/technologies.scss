@@ -6,19 +6,21 @@
 
 .landingpage {
     gap: 1rem 2rem;
-    // grid-template-columns: [line1] 1/3 [line2] 1/3 [line3] 1/3 [line3];
-}
 
-.landingpage h1 {
-    grid-column: span 3;
-    text-align: center;
+    h1, h3 {
+        grid-column: span 3;
+        text-align: center;
+    }
 }
 
 .box {
-    border: 1px solid $darkbeige;
     border-radius: 5px;
     padding: 1rem;
-    background-color: $beige;
+    background-image: $tech-img;
+
+    a {
+        color: #f1f1f1;
+    }
 }
 
 .box:hover {

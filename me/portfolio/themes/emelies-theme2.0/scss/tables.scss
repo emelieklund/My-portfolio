@@ -1,25 +1,72 @@
 /* Tables */
 
-table {
-    max-width: 100%;
-    width: 100%;
-    font-size: 1em;
-    border-collapse: collapse; // tar bort vitt utrymme mellan celler
+// table {
+//     max-width: 100%;
+//     width: 100%;
+//     font-size: 1em;
+//     border-collapse: collapse; // tar bort vitt utrymme mellan celler
 
-    tr:nth-child(2n) {
-        background-color: #eee;
-    }
+//     tr:nth-child(1n) {
+//         background-color: $table-light;
+//     }
+//     tr:nth-child(2n) {
+//         background-color: $table-dark;
+//     }
+
+//     th {
+//         text-align: left;
+//     }
+
+//     td {
+//         border-top: 1px solid #ccc;
+//     }
+
+//     th,
+//     td {
+//         padding: 0.8rem 1.2rem;
+//     }
+// }
+
+.color-table {
+    font-size: 1em;
+    border-collapse: separate;
+    border-spacing: 4px;
+    border: 1px solid rgb(208, 208, 208);
+    margin-top: 10px;
+    font-family: $text-font;
 
     th {
         text-align: left;
+        width: auto;
     }
 
     td {
-        border-top: 1px solid #ccc;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.font-table {
+    tr {
+        border: 1px solid rgb(208, 208, 208);
+    }
+    border-collapse: collapse;
+    font-size: 1em;
+    margin-top: 10px;
+    font-family: $text-font;
+
+    th {
+        text-align: left;
+        width: auto;
+        padding: 5px;
+        border-right: 1px solid rgb(208, 208, 208);
     }
 
-    th,
     td {
-        padding: 0.8rem 1.2rem;
+        width: 150px;
+        height: auto;
+        padding: 5px;
+        display: block;
+        overflow: scroll;
     }
 }

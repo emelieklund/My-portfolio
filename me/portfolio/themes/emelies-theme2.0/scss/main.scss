@@ -23,8 +23,8 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1.5;
-    background-color: $beige;
-    color: #333;
+    background-color: $body-background;
+    color: $font-color;
 }
 
 .main {
@@ -32,12 +32,30 @@ body {
     width: 50%;
     margin: 0 auto;
     padding: 30px 20px 20px;
-    border-left: 1px solid $darkbeige;
-    border-right: 1px solid $darkbeige;
-    background-color: $lightbeige;
+    border-left: 1.5px solid $border-color;
+    border-right: 1px solid $border-color;
+    background-color: $main-background;
+
+    a {
+        color: $link-color;
+    }
 }
 
-.me-img {
-    border-radius: 10px;
-    width: 250px;
+.theme-div {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    font-family: $text-font;
+    margin-top: 350px;
+    right: 0;
+    margin-right: 240px;
+    font-size: 2rem;
+    color: $font-color; 
+
+    a {
+        color: $font-color; 
+    }
 }

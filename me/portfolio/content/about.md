@@ -12,4 +12,15 @@ CSS-preprocessorn SASS används för att styla sidan. Några variabler har skapa
 
 Två olika font-families har importerats från Google Font, 'Montserrat' som används till brödtexten och 'Noto Serif Balinese' som används till rubriker. Tre olika ikoner från Font Awesome används i footern, Github, Instagram och Linkedin.
 
-En beige färg som har lagts i en variabel används som bakgrund till body, och en ljusare beige används till main och header.
+På sidan används ett komplementärt färgschema (se tabell nedanför).
+
+<table class="color-table">
+    <caption>Färgschema:</caption>
+    <tr>
+        <td style="background-color: #55D95A">
+        <td style="background-color: #99627A">
+        <td style="background-color: #D9558E">
+        <td style="background-color: #5F8461">
+        <td style="background-color: #594F54">
+    </tr>
+</table>

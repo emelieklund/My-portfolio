@@ -11,8 +11,9 @@
 
 .header {
     border-bottom: 3px solid rgb(74, 74, 74);
-    background-color: $lightbeige;
-    color: #333;
+    background-image: $header-image;
+    //background-color: $header-background;
+    color: $font-color;
 }
 
 /* Title */
@@ -26,7 +27,7 @@
 }
 
 .title * {
-    color: #333;
+    color: $font-color;
 }
 
 .title p {
