@@ -1,6 +1,6 @@
 ---
 Title: Färg
-Description: This is our color page.
+Description: Color report
 Template: report
 ---
 

@@ -1,0 +1,26 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="grid gallery">
+            {{ content }}
+        </div>
+    </div>
+
+    <div class="theme-div">
+        <a href="?action=session_destroy" title="Light mode" role="button">
+            <i class="fas fa-sun" aria-hidden="true"></i>
+            <span class="sr-only">Light mode</span>
+        </a>
+        <a href="?action=theme" title="Dark mode" role="button">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+            <span class="sr-only">Dark mode</span>
+        </a>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
