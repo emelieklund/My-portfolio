@@ -37,10 +37,14 @@
 
     .header {
         flex-direction: column;
+
+        h1 {
+            font-size: 4em;
+        }
     }
 
-    .title, .logo {
-        padding: 1em 1em 1em 0;
+    .title {
+        padding: 1em 1em 1em 2em;
     }
 
     .title {
@@ -49,6 +53,7 @@
 
     .logo {
         max-width: 30%;
+        display: none;
     }
 
     .nav ul {

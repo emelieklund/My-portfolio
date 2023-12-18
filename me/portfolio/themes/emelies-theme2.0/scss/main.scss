@@ -1,3 +1,5 @@
+/* Main */
+
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -24,6 +26,7 @@ body {
     flex-direction: column;
     line-height: 1.5;
     background-color: $body-background;
+    background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
     color: $font-color;
 }
 
@@ -49,9 +52,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: $text-font;
-    margin-top: 350px;
+    margin-top: 370px;
     right: 0;
-    margin-right: 240px;
+    margin-right: 260px;
     font-size: 2rem;
     color: $font-color; 
 

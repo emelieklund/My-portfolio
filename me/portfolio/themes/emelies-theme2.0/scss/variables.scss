@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&family&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 
 // Fonts
 $text-font: 'Montserrat', sans-serif;
 $head-font: 'Noto Serif Balinese', serif;
+$title-font: 'Great Vibes', cursive;
 
 $font-color: #333;
 
 // Backgrounds
-$header-image: linear-gradient(to right, #D9558E 0%, #55D95A 100%);
 $footer-background: #594F54;
-$body-background: #e8e8e8;
+$body-background: #f8f8f8;
+$background-image: url('../../../assets/img/background-medium.jpg');
 $main-background: #f8f8f8;
 
 $tech-img: linear-gradient(to bottom, #5F8461 0%, #a9c9ab 100%);
 
 // Colors
-$border-color: #e2e2e2;
+$border-color: rgb(90, 90, 90);
 $code-background: #f5f5f5;
 $table-light: #f5f5f5;
 $table-dark: #d2d2d2;

@@ -1,32 +1,5 @@
 /* Tables */
 
-// table {
-//     max-width: 100%;
-//     width: 100%;
-//     font-size: 1em;
-//     border-collapse: collapse; // tar bort vitt utrymme mellan celler
-
-//     tr:nth-child(1n) {
-//         background-color: $table-light;
-//     }
-//     tr:nth-child(2n) {
-//         background-color: $table-dark;
-//     }
-
-//     th {
-//         text-align: left;
-//     }
-
-//     td {
-//         border-top: 1px solid #ccc;
-//     }
-
-//     th,
-//     td {
-//         padding: 0.8rem 1.2rem;
-//     }
-// }
-
 .color-table {
     font-size: 1em;
     border-collapse: separate;
@@ -74,4 +47,5 @@
 .sheet {
     width: 452px;
     height: 202px;
+    max-width: 100%;
 }
